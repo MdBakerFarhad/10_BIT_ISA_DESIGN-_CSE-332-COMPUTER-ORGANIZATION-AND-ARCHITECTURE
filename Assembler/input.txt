@@ -1,0 +1,15 @@
+Sub $t1 $t1
+Add $t1 $s0
+Addi $t1 -3
+Addi $t1 -3
+Addi $t1 -2
+Bnez $t1 1
+J 7
+Sub $t1 $t1
+Add $t1 $s0
+Add $t1 $s3
+Lw $t1 0
+Add $s1 $t0
+Addi $s0 1
+J -14
+Out $s1
